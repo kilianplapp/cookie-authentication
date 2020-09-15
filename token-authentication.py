@@ -1,5 +1,5 @@
-import flask, json, flask_wtf, time, uuid
-from flask import Flask, render_template, request, redirect, url_for, make_response
+import time, uuid
+from flask import Flask, render_template, request, redirect, make_response
 app = Flask(__name__)
 users = {"testaccount1":"password","testaccount2":"password"}
 validtoken = {}
